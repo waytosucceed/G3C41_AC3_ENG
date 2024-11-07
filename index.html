@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Activity 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <link rel="icon" type="image/x-icon" href="Logo_last.png">
+  
+  <style>
+    .activity {
+      width: 100%;
+      height: auto;
+      background-color: rgb(156, 225, 247);
+      display: flex;
+      justify-content: center;
+      padding-top: 25px;
+    }
+    .activity p {
+      font-size: 18px;
+    }
+    #img-area {
+      width: 40%;
+    }
+    #content-area {
+      width: 60%;
+    }
+    #heading {
+      font-family: Harrington;
+      font-size: 40px;
+      font-weight: bolder;
+      color: maroon;
+    }
+    table, th, td {
+      border: 2px solid black;
+      padding: 12px;
+      font-size: 20px;
+
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <audio id="cheers">
+    <source src="cheers.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="points" src="Points.mp3"></audio>
+  <audio id="fail" src="fail.mp3"></audio>
+
+  <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+    <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+    <span><img src="header.png" width="30%" height="auto" class="img-responsive"></span>
+  </div>
+  
+  <br>
+  
+  <center>
+    <h1 id="heading">What Did I Learn ?</h1>
+</center>
+<br>
+
+<div class="container text-center" style="font-size: 22px;">
+  <p style="font-size: 23px;">👉 <b>Active Voice:</b> The subject performs the action. It's direct, clear, and emphasises who or what is doing something.</p>
+<p style="font-size: 23px;">👉 <b>Passive Voice:</b> The subject receives the action. It emphasises what happens to something rather than who does it.</p>
+  
+  <table style="width: 100%; border-collapse: collapse; font-size: 23px;">
+      <thead>
+          <tr>
+              <th style="border: 1px solid #ddd; padding: 8px;">Aspect</th>
+              <th style="border: 1px solid #ddd; padding: 8px;">Active Voice</th>
+              <th style="border: 1px solid #ddd; padding: 8px;">Passive Voice</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr style="background-color: #d9edfb !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject-Verb Order</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject does the action</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject receives the action</td>
+          </tr>
+          <tr style="background-color: #d9edfb !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;">Verb Form</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Simple verb form</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">"To be" + past participle</td>
+          </tr>
+          <tr style="background-color: #d9edfb !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;">Focus</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">On the doer of the action</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">On the action or recipient</td>
+          </tr>
+          <tr style="background-color: #d9edfb !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;">Sentence Structure</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + Verb + Object</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Object + "To be" + Past Participle + (by Subject)</td>
+          </tr>
+          <tr style="background-color: #d9edfb !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;">When to Use</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">For clarity, directness, and emphasis on the doer</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">When the action is more important than the doer, or when the doer is unknown</td>
+          </tr>
+          <tr style="background-color: #FFE1FF !important;">
+              <td style="border: 1px solid #ddd; padding: 8px;" colspan="3"><b>Example</b>: The chef will prepare dinner. → Dinner will be prepared by the chef.</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <br>
+
+  <p style="font-size: 23px;"><b>Rules for converting active voice to passive voice with respect to different tenses:</b></p>
+
+  <table style="width: 100%; border-collapse: collapse; font-size: 23px;">
+      <thead>
+          <tr>
+              <th style="border: 1px solid #ddd; padding: 8px;">Tense</th>
+              <th style="border: 1px solid #ddd; padding: 8px;">Active Voice Rule</th>
+              <th style="border: 1px solid #ddd; padding: 8px;">Passive Voice Rule</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Simple Present</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + V1</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">is/am/are + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Simple Past</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + V2</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">was/were + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Simple Future</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + will + V1</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">will be + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Present Continuous</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + is/am/are + V-ing</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">is/am/are + being + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Past Continuous</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + was/were + V-ing</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">was/were + being + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Present Perfect</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + has/have + V3</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">has/have + been + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Past Perfect</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + had + V3</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">had + been + V3</td>
+          </tr>
+          <tr>
+              <td style="border: 1px solid #ddd; padding: 8px;">Future Perfect</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">Subject + will have + V3</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">will have been + V3</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <br>
+
+  <p class="text-start">
+      <span style="color: rgb(154, 34, 240); font-weight: 600; font-size: 25px;"><u>Words that I learnt from the story</u></span><br><br>
+      <b>Transformation:</b> A thorough or dramatic change in form or appearance.
+      <br>
+      <u>Sentence</u>: The transformation of the old factory into a modern art gallery was impressive.
+      <br><br>
+      <b>Tech-savvy:</b> Being knowledgeable about modern technology, especially computers and electronics.
+      <br>
+      <u>Sentence</u>: Jane is very tech-savvy and can fix almost any computer problem.
+      <br><br>
+      <b>Centrepiece:</b> An important or central item, often a decorative object placed in the middle of a table.
+      <br>
+      <u>Sentence</u>: The beautiful vase of flowers was the centrepiece of the dining table.
+  </p>
+
+  <br>
+  <div style="text-align: center;">
+      <a href="fun_time.html" class="btn btn-primary mb-5 btn-lg text-center" style="height: 50px; width: 200px; font-size: 22px;text-align: center;">Fun Time</a>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
